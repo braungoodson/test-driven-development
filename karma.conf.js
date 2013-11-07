@@ -2,9 +2,9 @@ module.exports = function (config) {
 	config.set({
 		basePath: '.',
 		frameworks: ['jasmine'],
-		files: ['app/src/**/*.js','unit-tests/**/*.js'],
+		files: ['app/**/*.js','unit-tests/**/*.js'],
 		preprocessors: {
-			'app/src/**/*.js': ['coverage']
+			'app/**/*.js': ['coverage']
 		},
 		reporters: ['progress','coverage'],
 		coverageReporter: {
