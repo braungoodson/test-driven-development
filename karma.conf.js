@@ -2,9 +2,14 @@ module.exports = function (config) {
 	config.set({
 		basePath: '.',
 		frameworks: ['jasmine'],
-		files: ['app/**/*.js','unit-tests/**/*.js'],
+		files: [
+			'app/libraries/jquery.min.js',
+			'app/libraries/angular.min.js',
+			'app/libraries/angular-mocks.min.js',
+			'unit-tests/**/*.js'
+		],
 		preprocessors: {
-			'app/**/*.js': ['coverage']
+			'app/controllers/*.js': ['coverage']
 		},
 		reporters: ['progress','coverage'],
 		coverageReporter: {
@@ -16,7 +21,7 @@ module.exports = function (config) {
 		logLevel: config.LOG_INFO,
 		autoWatch: true,
 		browsers: ['PhantomJS'],
-		captureTimeout: 4000,
+		captureTimeout: 20000,
 		singleRun: false
 	});
 };
