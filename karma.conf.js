@@ -10,12 +10,12 @@ module.exports = function (config) {
 			'unit-tests/**/*.js'
 		],
 		preprocessors: {
-			'app/controllers/*.js': ['coverage']
+			'app/**/*.js': ['coverage']
 		},
 		reporters: ['progress','coverage'],
 		coverageReporter: {
 			type: 'html',
-			dir: 'unit-tests/coverage'
+			dir: 'coverage'
 		},
 		port: 9876,
 		colors: true,
