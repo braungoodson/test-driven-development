@@ -27,7 +27,7 @@ Overview
 * Npm: The node package manager.
 * Grunt: The JavaScript task runner.
 * Karma: A test runner for JavaScript.
-* PhantomJS: A head-less browser.
 * Jasmine: A behaviour-driven development framework.
-* Istnabul: A JavaScript code coverage tool.
+* PhantomJS: A head-less browser.
+* Istanbul: A JavaScript code coverage tool.
 
