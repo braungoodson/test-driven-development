@@ -12,4 +12,7 @@ describe('myController',function(){
 	it('should exist',function(){
 		expect(myController).toBeDefined();
 	});
+	it('should define scope data',function(){
+		expect($scope.myData == 'myData').toBe(true);
+	});
 });
