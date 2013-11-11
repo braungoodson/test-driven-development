@@ -6,7 +6,8 @@ module.exports = function (config) {
 			'app/libraries/jquery.min.js',
 			'app/libraries/angular.min.js',
 			'app/libraries/angular-mocks.min.js',
-			'app/controllers/*.js',
+			'app/modules/myModule.js',
+			'app/controllers/myController.js',
 			'unit-tests/**/*.js'
 		],
 		preprocessors: {

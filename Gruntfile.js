@@ -9,6 +9,5 @@ module.exports = function (grunt) {
 		},
 	});
 	grunt.registerTask('tdd:unit',['karma:unit']);
-	grunt.registerTask('tdd',['tdd:unit']);
 	grunt.registerTask('default',[]);
 };
