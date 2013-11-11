@@ -13,6 +13,8 @@ ________                     .__                                       __
         \/     \/          \/            |__|         \/     \/     \/         
 </pre>
 
+[![Build Status](https://travis-ci.org/braungoodson/test-driven-development.png)](https://travis-ci.org/braungoodson/test-driven-development)
+
 =======
 Prerequisites
 =======================
