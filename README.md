@@ -18,6 +18,7 @@ Prerequisites
 =======================
 
 * Git (suggested)
+* NodeJS (required)
 * Npm (required)
 
 ======
